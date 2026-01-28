@@ -1,8 +1,9 @@
-namespace TestProject1
+﻿namespace WebApplication1.service
 {
-    public class Tests
+    public class CFService
     {
-       
+
+
         public bool seVocale(char c)
         {
             char clower = char.ToLower(c);
@@ -14,8 +15,7 @@ namespace TestProject1
                     return true;
                 }
             }
-           return false; 
+            return false;
         }
     }
 }
-
